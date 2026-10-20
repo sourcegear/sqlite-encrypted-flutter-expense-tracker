@@ -1,0 +1,27 @@
+name: sqlite_encrypted_expense_tracker
+description: An encrypted, cross-platform expense tracker using SQLite.Encrypted and SEE.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^11.2.0
+  path: ^1.9.1
+  sqflite_common_ffi:
+    hosted: https://packages.sourcegear.com/pub
+    version: 3.54.0
+  sqlite_encrypted:
+    hosted: https://packages.sourcegear.com/pub
+    version: 3.54.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
