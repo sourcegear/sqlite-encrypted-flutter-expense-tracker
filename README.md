@@ -17,8 +17,10 @@ The sample demonstrates:
 ## Prerequisites
 
 - Flutter with tooling for your target platform
-- a SQLite.Encrypted activation key. You can request an evaluation key at
-  <http://sqlite.sourcegear.com/#evaluation>.
+- a SQLite.Encrypted activation key.
+
+Free fully-featured demo keys are available from
+[sqlite.sourcegear.com](https://sqlite.sourcegear.com/#evaluation).
 
 The activation key must cover the platform and SQLite minor version bundled in
 the selected `sqlite_encrypted` package. An activation key issued for an older
